@@ -1,0 +1,32 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+}
+.post img {
+    width: 635px;
+    height: 512px;
+    object-fit: cover;
+}
+.post h2 {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+}
+.post .wrp {
+    margin-left: 20px;
+    width: 445px;
+}
+.post p {
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.3px;
+    color: #263238;
+    margin: 40px 0px;
+    
+}
+.heshteg {
+    display: block;
+    color: #FFBB12;
+}
