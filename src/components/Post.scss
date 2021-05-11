@@ -2,10 +2,22 @@
     display: flex;
     justify-content: space-between;
 }
+@media (max-width: 1200px) {
+    .post {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 .post img {
     width: 635px;
     height: 512px;
     object-fit: cover;
+}
+@media (max-width: 1200px) {
+    .post img {
+        width: 100%;
+        height: 300px;
+    }
 }
 .post h2 {
     font-weight: bold;
@@ -17,6 +29,14 @@
 .post .wrp {
     margin-left: 20px;
     width: 445px;
+    padding-bottom: 50px;
+}
+@media (max-width: 1200px) {
+    .post .wrp {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
 }
 .post p {
     font-size: 20px;

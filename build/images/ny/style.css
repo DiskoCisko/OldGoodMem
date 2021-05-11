@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(186,18,117);
+  background: linear-gradient(90deg, rgba(186,18,117,1) 0%, rgba(164,19,146,1) 35%, rgba(145,19,170,1) 100%);
+  color: #fff;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.mem-wrp-img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+width: 400px;
+}
+.game {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.mem-wrp {
+  margin-right: 50px;
+width: 400px;
+}
+.mem-text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.teg-for-mem {
+  display: block;
+  position: relative;
+}
+.main-title {
+  font-size: 64px;
+  font-weight: 800;
+}
+.mem-btns {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.btn {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #e6c007;
+  color: #060503;
+  font-weight: 200;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #bb1275;
+transition: 0.3s;
+color: #fff;
+border-radius: 10px;
+}
